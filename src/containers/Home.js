@@ -1,10 +1,12 @@
 import React from 'react'
 import { withRouteData, Link } from 'react-static'
 import convert from 'htmr'
+import Cover from '../components/Cover'
 //
 
 export default withRouteData(({ posts }) => (
   <div>
+    <Cover />
     <ul>
       {posts
         .slice(0, 5)

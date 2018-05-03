@@ -7,7 +7,8 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
-    "serve": "serve dist -p 3000"
+    "serve": "serve dist -p 3000",
+    "deploy": "npm run build && firebase deploy"
   },
   "dependencies": {
     "chokidar": "2.0.3",
