@@ -1,15 +1,18 @@
 import React from 'react'
-import { withRouteData } from 'react-static'
+import { withRouteData, Link } from 'react-static'
 import convert from 'htmr'
 //
 
-export default withRouteData(({ jdown, reactStatic }) => (
+export default withRouteData(({ posts }) => (
   <div>
-    <section>
-      {convert(reactStatic.contents)}
-    </section>
-    <section>
-      {convert(jdown.contents)}
-    </section>
+    <ul>
+      {posts
+        .slice(0, 5)
+        .map(post => (
+        <li key={post.slug}>
+          <Link to={`/blog/post/${post.slug}/`}>{post.title}</Link>
+        </li>
+      ))}
+    </ul>
   </div>
 ))

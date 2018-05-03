@@ -6,7 +6,7 @@ chokidar.watch('content').on('all', () => reloadRoutes())
 
 export default {
   getSiteData: () => ({
-    title: 'React Static',
+    title: 'sisidov.ski - Shunya Shishido',
   }),
   getRoutes: async () => {
     const { posts, home, about } = await jdown('content')
@@ -16,6 +16,7 @@ export default {
         component: 'src/containers/Home',
         getData: () => ({
           ...home,
+          posts
         }),
       },
       {
