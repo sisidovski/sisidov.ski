@@ -4,9 +4,8 @@ import convert from 'htmr'
 import Cover from '../components/Cover'
 //
 
-export default withRouteData(({ posts }) => (
+export default withRouteData(({ about, posts }) => (
   <div>
-    <Cover />
     <ul>
       {posts
         .slice(0, 5)

@@ -10,7 +10,7 @@ export default {
     title: 'sisidov.ski - Shunya Shishido',
   }),
   getRoutes: async () => {
-    const { posts, home, about } = await jdown('content')
+    const { posts, home, about, contact } = await jdown('content')
     return [
       {
         path: '/',
@@ -40,6 +40,13 @@ export default {
             post,
           }),
         })),
+      },
+      {
+        path: '/contact',
+        component: 'src/containers/Contact',
+        getData: () => ({
+          contact
+        })
       },
       {
         is404: true,
