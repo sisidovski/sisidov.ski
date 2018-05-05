@@ -1,3 +1,5 @@
+import ExtractTextPlugin from 'extract-text-webpack-plugin'
+
 export default (config, { defaultLoaders, stage }) => {
   let loaders = []
 
