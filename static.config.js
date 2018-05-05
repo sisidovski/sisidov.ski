@@ -1,6 +1,7 @@
 import { reloadRoutes } from 'react-static/node'
 import jdown from 'jdown'
 import chokidar from 'chokidar'
+import webpack from './config/webpack'
 
 chokidar.watch('content').on('all', () => reloadRoutes())
 
@@ -46,4 +47,5 @@ export default {
       },
     ]
   },
+  webpack: webpack,
 }
