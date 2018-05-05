@@ -7,6 +7,7 @@ import BlogItem from '../components/BlogItem'
 
 export default withRouteData(({ about, posts }) => (
   <div>
+    Recent Posts:
     <ul className="blog-items">
       {posts
         .slice(0, 5)
