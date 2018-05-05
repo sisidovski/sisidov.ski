@@ -4,8 +4,9 @@ import convert from 'htmr'
 //
 
 export default withRouteData(({ post }) => (
-  <div>
+  <article>
     <h3>{post.title}</h3>
+    <time dateTime={post.created}>{post.created}</time>
     {convert(post.contents)}
-  </div>
+  </article>
 ))

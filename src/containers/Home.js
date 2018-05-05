@@ -3,17 +3,16 @@ import { withRouteData, Link } from 'react-static'
 import convert from 'htmr'
 import Cover from '../components/Cover'
 //
+import BlogItem from '../components/BlogItem'
 
 export default withRouteData(({ about, posts }) => (
   <div>
-    <ul>
+    <ul className="blog-items">
       {posts
         .slice(0, 5)
         .map(post => (
-        <li key={post.slug}>
-          <Link to={`/blog/post/${post.slug}/`}>{post.title}</Link>
-        </li>
-      ))}
+          <BlogItem post={post} key={post.slug} />
+        ))}
     </ul>
   </div>
 ))

@@ -48,3 +48,32 @@ nav {
     padding: 0 12px;
   }
 }
+
+time {
+  font-size: 14px;
+  color: #DDD;
+}
+
+.blog-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.blog-item {
+  > a {
+    display: block;
+  }
+  border-bottom: solid 1px #FFF;
+  &:last-child {
+    border-bottom: none;
+  }
+  &__title {
+    font-size: 24px;
+  }
+}
+
+article {
+  h3 {
+    font-size: 24px;
+  }
+}
