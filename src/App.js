@@ -4,7 +4,6 @@ import { hot } from 'react-hot-loader'
 //
 import Routes from 'react-static-routes'
 import Header from './components/Header'
-import Particles from 'react-particles-js';
 
 
 import './app.scss'
