@@ -5,13 +5,13 @@ body {
   font-size: 16px;
   margin: 0;
   padding: 0;
-  background-color: #001831;
-  color: #FFF;
+  // color: #FFF;
+  color: #333;
 }
 
 a {
   text-decoration: none;
-  color: #fdab09;
+  color: #156daf;
 }
 
 img {
@@ -30,7 +30,7 @@ img {
   flex-wrap: wrap;
   padding: 8px;
   a {
-    color: #FFF;
+    color: #333;
   }
   > * {
     flex: 1 1 100%;
@@ -39,6 +39,7 @@ img {
 
 .header__title {
   padding: 16px;
+  font-weight: bold;
 }
 
 nav {
@@ -51,7 +52,7 @@ nav {
 
 time {
   font-size: 14px;
-  color: #DDD;
+  color: #666;
 }
 
 .blog-items {

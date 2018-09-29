@@ -1,11 +1,12 @@
-## Who?
+## Who
 
-I'm Shunya Shishido, tokyo based web developer. My interest is always on the web.
+Shunya Shishido, tokyo based web developer.
 
-## Work
+## Me in other places
 
-- 2016 - present: Software Engineer at a traditional newspaper company in Japan.
-- 2012 - 2016: Software Engineer at [Dwango](http://dwango.co.jp/index.html), which is one of companies making online streaming video service in Japan
+- Github: [@sisidovski](https://github.com/sisidovski)
+- Twitter: [@sisidovski](https://twitter.com/sisidovski)
+- LinkedIn: [shunya-shishido](https://www.linkedin.com/in/shunya-shishido/)
 
 ## Slide / Blog
 
