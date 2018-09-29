@@ -24,7 +24,7 @@
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
     "extract-text-webpack-plugin": "^3.0.2",
-    "firebase": "^5.5.2",
+    "firebase-tools": "^4.2.1",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "serve": "^6.1.0"
