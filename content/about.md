@@ -1,5 +1,7 @@
 ## Who
 
+![Profile image](/profile.jpg)
+
 Shunya Shishido, tokyo based web developer.
 
 ## Me in other places

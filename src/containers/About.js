@@ -5,7 +5,7 @@ import convert from 'htmr'
 //
 
 export default withRouteData(({ about }) => (
-  <div>
+  <div className="content__about">
     {convert(about.contents)}
   </div>
 ))
