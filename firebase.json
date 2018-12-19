@@ -8,10 +8,20 @@
     ],
     "headers": [
       {
-        "source": "/cert.cbor",
+        "source": "cert.cbor",
         "headers": [
           {
-            "Content-Type": "application/cert-chain+cbor"
+            "key": "Content-Type",
+            "value": "application/cert-chain+cbor"
+          }
+        ]
+      },
+      {
+        "source": "**/*.sxg",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/signed-exchange;v=b2"
           }
         ]
       }
