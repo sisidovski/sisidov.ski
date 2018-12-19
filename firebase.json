@@ -5,6 +5,16 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "headers": [
+      {
+        "source": "/cert.cbor",
+        "headers": [
+          {
+            "Content-Type": "application/cert-chain+cbor"
+          }
+        ]
+      }
     ]
   }
 }
