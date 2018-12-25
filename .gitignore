@@ -21,6 +21,7 @@ yarn-error.log*
 
 # firebase
 /.firebase
+./firebase.json
 
 # certs and keys for signed exchanges
 /.secrets
