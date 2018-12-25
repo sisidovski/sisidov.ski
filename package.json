@@ -7,8 +7,9 @@
     "start": "react-static start",
     "stage": "react-static build --staging",
     "build": "react-static build",
+    "build-firebase-config": "node ./scripts/make-firebase-config.js",
     "serve": "serve dist -p 3000",
-    "deploy": "npm run build && npx firebase deploy"
+    "deploy": "npm run build && npm run build-firebase-config && npx firebase deploy"
   },
   "dependencies": {
     "chokidar": "2.0.3",
