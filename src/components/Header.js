@@ -8,8 +8,6 @@ export default () => (
     <Link className="header__title" to="/">Shunya Shishido</Link>
     <nav>
       <NavLink to="/about">About</NavLink>
-      <NavLink to="/blog">Blog</NavLink>
-      <Link to={publicCVURL} target="_blank">CV</Link>
     </nav>
   </header>
 )
