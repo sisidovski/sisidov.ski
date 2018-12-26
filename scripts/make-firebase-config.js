@@ -17,7 +17,6 @@ const signedExchangeConfig = {
       key: 'Origin-Trial',
       value: process.env.ORIGIN_TRIAL,
     },
-    // Required by Chrome
     {
       key: 'X-Content-Type-Options',
       value: 'nosniff',

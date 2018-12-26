@@ -15,9 +15,18 @@
             "value": "application/cert-chain+cbor"
           }
         ]
+      },
+      {
+        "source": "/blog/post/signed-http-exchange",
+        "headers": [
+          {
+            "key": "Link",
+            "value": "</signed.sxg.dummy>; rel=prefetch"
+          }
+        ]
       }
     ],
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": true
   }
 }
