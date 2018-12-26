@@ -7,7 +7,7 @@ dotenv.config({ path: path.resolve(process.cwd(), '.env.local') })
 
 
 const signedExchangeConfig = {
-  source: '**/*.sxg.dummy',
+  source: '**/*.sxg',
   headers: [
     {
       key: 'Content-Type',
