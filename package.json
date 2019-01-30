@@ -10,7 +10,7 @@
     "build-firebase-config": "node ./scripts/make-firebase-config.js",
     "serve": "serve dist -p 3000",
     "deploy": "npm run build && npm run build-firebase-config && npx firebase deploy",
-    "test": "bundlesize"
+    "test": "npm run build && bundlesize"
   },
   "dependencies": {
     "chokidar": "2.0.3",
